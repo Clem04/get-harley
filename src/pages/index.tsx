@@ -1,12 +1,12 @@
 import { Inter } from 'next/font/google'
 import { GetServerSideProps } from 'next';
 import { useState } from 'react';
-import { HomePageProps } from '~/types/pages';
-import { Product } from '~/types/product'
-import Navbar from '~/components/navigation/TopNavBar/TopNavBar'
-import HomeProductList from '~/components/lists/HomeProductList/HomeProductList';
-import Cart from '~/components/cart/Cart';
-import { API_DEV_ENPOINT } from '~/constants/urls';
+import { HomePageProps } from '../types/pages';
+import { Product } from '../types/product'
+import Navbar from '../components/navigation/TopNavBar/TopNavBar'
+import HomeProductList from '../components/lists/HomeProductList/HomeProductList';
+import Cart from '../components/cart/Cart';
+import { API_DEV_ENPOINT } from '../constants/urls';
 
 const inter = Inter({ subsets: ['latin'] })
 

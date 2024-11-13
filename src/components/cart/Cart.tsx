@@ -1,7 +1,6 @@
 'use Client'
-import React from 'react';
-import { useCart } from "~/hooks/useCart";
-import { Product } from "~/types/product";
+import { useCart } from "../../hooks/useCart";
+import { Product } from "../../types/product";
 import CartProductsList from "../lists/CartList/CartList";
 
 interface CartProps {

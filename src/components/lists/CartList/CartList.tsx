@@ -1,7 +1,6 @@
 'use Client'
-import React from 'react';
-import { Product } from "~/types/product";
-import ProductCard from "~/components/cards/ProductCard/ProductCard";
+import { Product } from "../../../types/product";
+import ProductCard from "../../cards/ProductCard/ProductCard";
 
 interface CartProductListProps {
   products: { product: Product; quantity: number }[];

@@ -1,6 +1,6 @@
-import React, { createContext, ReactNode, useReducer, useContext } from "react";
+import React, { createContext, ReactNode, useReducer } from "react";
 import { CartState, CartAction } from "../types/cart";
-import cartReducer from "~/reducers/cartReducer";
+import cartReducer from "../reducers/cartReducer";
 
 export const CartContext = createContext<{ state: CartState; dispatch: React.Dispatch<CartAction> } | undefined>(undefined);
 

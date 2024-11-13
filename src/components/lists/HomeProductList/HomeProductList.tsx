@@ -1,8 +1,7 @@
 'use Client'
-import React from 'react';
-import { ProductsListProps, Product } from "~/types/product";
-import ProductCard from "~/components/cards/ProductCard/ProductCard";
-import { useCart } from "~/hooks/useCart";
+import { ProductsListProps, Product } from "../../../types/product";
+import ProductCard from "../../cards/ProductCard/ProductCard";
+import { useCart } from "../../../hooks/useCart";
 
 export default function HomeProductList({ products }: ProductsListProps) {
   const { dispatch } = useCart();

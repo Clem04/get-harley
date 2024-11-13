@@ -1,7 +1,6 @@
 "use client"
-import React from 'react';
 import Image from "next/image"
-import { ProductCardProps } from "~/types/product"
+import { ProductCardProps } from "../../../types/product"
 
 export default function ProductCard({ product, buttonLabel, handleClick }: ProductCardProps) {
   return (
